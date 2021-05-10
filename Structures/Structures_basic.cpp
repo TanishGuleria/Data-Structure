@@ -5,8 +5,10 @@ using namespace std;
 struct rectangle{
 	int length; // int is 4 bytes
 	int breath; // int is 4 bytes
-}; // 8 bytes of memory 
-
+	char  ch; //1 byte but will we conciderd as 4 (PADDING OF MEMORY)
+}r3; // declare object 
+// 8 bytes of memory 
+struct rectangle global // global object
 int main()
 {
 	// r is an object occuping 8 bytes of memory in stack 
